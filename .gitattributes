@@ -1,1 +1,6 @@
+geoprocessamento/shapefile/*.shp filter=lfs diff=lfs merge=lfs -text
+geoprocessamento/shapefile/*.dbf filter=lfs diff=lfs merge=lfs -text
+geoprocessamento/shapefile/*.shx filter=lfs diff=lfs merge=lfs -text
+geoprocessamento/shapefile/*.prj filter=lfs diff=lfs merge=lfs -text
+geoprocessamento/shapefile/*.cpg filter=lfs diff=lfs merge=lfs -text
 geoprocessamento/shapefile/municipios.* filter=lfs diff=lfs merge=lfs -text
